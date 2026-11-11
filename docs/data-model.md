@@ -1,7 +1,5 @@
 # Modelul de Date și API Endpoints
 
-Acest document descrie structura bazei de date SQLite utilizate pentru aplicația Repair4U, precum și principalele puncte finale (endpoints) ale interfeței de programare (API).
-
 ## 1. Structura bazei de date (Tabele)
 
 Baza de date relațională conține trei tabele principale pentru a gestiona utilizatorii, comenzile de reparații și stocurile de piese.
