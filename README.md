@@ -1,16 +1,16 @@
 # Repair4U
 
 ## Descrierea proiectului
-    **Repair4U** este o aplicație web dedicată unui service de reparații pentru calculatoare și telefoane. Aceasta vine în sprijinul clienților care doresc să își repare dispozitivele. Aplicația ajută la organizarea și gestionarea comenzilor și a pieselor de schimb, oferind totodată clienților posibilitatea de a urmări stadiul reparației.
+**Repair4U** este o aplicație web dedicată unui service de reparații pentru calculatoare și telefoane. Aceasta vine în sprijinul clienților care doresc să își repare dispozitivele. Aplicația ajută la organizarea și gestionarea comenzilor și a pieselor de schimb, oferind totodată clienților posibilitatea de a urmări stadiul reparației.
 
 ## Problema abordată
-    Service-urile de telefoane și calculatoare încă folosesc agende sau tabele Excel ca să țină evidența reparațiilor. Acest mod de lucru este învechit și poate duce la erori.
+Service-urile de telefoane și calculatoare încă folosesc agende sau tabele Excel ca să țină evidența reparațiilor. Acest mod de lucru este învechit și poate duce la erori.
 
-    Din perspectiva clientului, problema este că își lasă dispozitivul în service și nu știe ce se mai întâmplă cu el. Astfel, ajunge să apeleze telefonic service-ul sau să meargă fizic pentru a afla stadiul reparației. Acest lucru înseamnă timp pierdut atât pentru clienți, cât și pentru angajați.
+Din perspectiva clientului, problema este că își lasă dispozitivul în service și nu știe ce se mai întâmplă cu el. Astfel, ajunge să apeleze telefonic service-ul sau să meargă fizic pentru a afla stadiul reparației. Acest lucru înseamnă timp pierdut atât pentru clienți, cât și pentru angajați.
 
-    În plus, ca angajat, când notezi zeci de comenzi manual, e foarte ușor să uiți ce piese ai comandat, să încurci dispozitivele care trebuie reparate sau să întârzii reparațiile.
+În plus, ca angajat, când notezi zeci de comenzi manual, e foarte ușor să uiți ce piese ai comandat, să încurci dispozitivele care trebuie reparate sau să întârzii reparațiile.
 
-    Aplicația Repair4U rezolvă exact aceste probleme. Mutăm toată organizarea în mediul online, transformăm munca angajaților într-una mai ușoară, iar clienților le oferim posibilitatea de a vizualiza stadiul reparației direct din aplicație.
+Aplicația Repair4U rezolvă exact aceste probleme. Mutăm toată organizarea în mediul online, transformăm munca angajaților într-una mai ușoară, iar clienților le oferim posibilitatea de a vizualiza stadiul reparației direct din aplicație.
 
 ## Obiective
 1. **Preluarea și gestionarea comenzilor** într-o singură aplicație, ușor de folosit pentru angajați și clienți.
