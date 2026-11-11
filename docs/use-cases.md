@@ -1,10 +1,9 @@
 # Scenarii de Utilizare (Use Cases)
 
-
 ## 1. Crearea unei comenzi de reparație
-**Actor:** Angajat
-**Descriere:** Angajatul înregistrează dispozitivul și problema.
-**Precondiții:** Angajatul este autentificat în aplicație cu rolul de "Angajat".
+- **Actor:** Angajat
+- **Descriere:** Angajatul înregistrează dispozitivul și problema.
+- **Precondiții:** Angajatul este autentificat în aplicație cu rolul de "Angajat".
 
 **Flux principal:**
 1. Angajatul accesează panoul de control (Dashboard) și apasă butonul "Comandă nouă".
@@ -16,10 +15,12 @@
 
 **Rezultat așteptat:** Comanda este salvată în baza de date cu un ID unic și statusul inițial (ex: "Preluat"), iar angajatul este redirecționat către lista de comenzi.
 
+---
+
 ## 2. Actualizarea stadiului unei reparații
-**Actor:** Angajat
-**Descriere:** Angajatul actualizează stadiul reparației.
-**Precondiții:** Angajatul este autentificat și se află pe pagina cu lista de comenzi.
+- **Actor:** Angajat
+- **Descriere:** Angajatul actualizează stadiul reparației.
+- **Precondiții:** Angajatul este autentificat și se află pe pagina cu lista de comenzi.
 
 **Flux principal:**
 1. Angajatul selectează o comandă activă din listă.
@@ -30,10 +31,12 @@
 
 **Rezultat așteptat:** Statusul comenzii este schimbat cu succes, fiind pregătit pentru a fi vizualizat de către client în timp real.
 
+---
+
 ## 3. Verificarea stadiului reparației
-**Actor:** Client
-**Descriere:** Clientul poate vedea progresul acesteia.
-**Precondiții:** Clientul deține un ID de comandă valid primit la predarea dispozitivului.
+- **Actor:** Client
+- **Descriere:** Clientul poate vedea progresul reparației.
+- **Precondiții:** Clientul deține un ID de comandă valid primit la predarea dispozitivului.
 
 **Flux principal:**
 1. Clientul accesează pagina publică de urmărire a aplicației.
@@ -44,10 +47,12 @@
 
 **Rezultat așteptat:** Informațiile solicitate sunt afișate pe ecran corect, fără a permite accesul la datele altor clienți.
 
+---
+
 ## 4. Adăugarea unei piese în inventar
-**Actor:** Administrator
-**Descriere:** Administratorul adaugă piese și actualizează stocurile.
-**Precondiții:** Utilizatorul este logat cu rolul de "Administrator".
+- **Actor:** Administrator
+- **Descriere:** Administratorul adaugă piese și actualizează stocurile.
+- **Precondiții:** Utilizatorul este logat cu rolul de "Administrator".
 
 **Flux principal:**
 1. Administratorul navighează la secțiunea "Inventar".
@@ -58,10 +63,12 @@
 
 **Rezultat așteptat:** Piesa apare în tabelul de inventar cu cantitatea specificată.
 
+---
+
 ## 5. Alertarea privind stocul redus
-**Actor:** Sistem (pe baza acțiunilor Administratorului/Angajatului)
-**Descriere:** Aplicația semnalează piesele care sunt pe terminate.
-**Precondiții:** O piesă din inventar ajunge la o cantitate egală sau mai mică decât limita setată anterior.
+- **Actor:** Sistem (pe baza acțiunilor Administratorului/Angajatului)
+- **Descriere:** Aplicația semnalează piesele care sunt pe terminate.
+- **Precondiții:** O piesă din inventar ajunge la o cantitate egală sau mai mică decât limita setată anterior.
 
 **Flux principal:**
 1. Un angajat scade o piesă din stoc în urma finalizării unei reparații.
@@ -71,10 +78,12 @@
 
 **Rezultat așteptat:** Administratorul este informat vizual că trebuie să lanseze o nouă comandă de aprovizionare pentru acea piesă.
 
+---
+
 ## 6. Crearea unui cont nou de utilizator
-**Actor:** Administrator
-**Descriere:** Administratorul gestionează conturile și rolurile.
-**Precondiții:** Administratorul este autentificat în sistem.
+- **Actor:** Administrator
+- **Descriere:** Administratorul gestionează conturile și rolurile.
+- **Precondiții:** Administratorul este autentificat în sistem.
 
 **Flux principal:**
 1. Administratorul accesează secțiunea "Management Utilizatori".
@@ -82,6 +91,6 @@
 3. Introduce datele noului membru (nume, adresă de e-mail, parolă temporară).
 4. Selectează rolul corespunzător (ex: "Angajat" sau "Administrator").
 5. Apasă "Creează cont".
-6. Sistemul salvează utilizatorul, astfel încât fiecare utilizator are acces doar la funcțiile permise[cite: 1].
+6. Sistemul salvează utilizatorul, setând permisiunile corespunzătoare rolului.
 
 **Rezultat așteptat:** Contul este activ, iar noul angajat se poate autentifica în platformă folosind credențialele generate, având acces limitat conform rolului.
