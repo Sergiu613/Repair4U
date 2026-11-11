@@ -25,7 +25,7 @@ Aplicația Repair4U rezolvă exact aceste probleme. Mutăm toată organizarea î
 
 ## Membrii echipei si responsabilitati
 | Nume Prenume | Rol | Responsabilități |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **Olar Sergiu Cătălin** | Team Leader & Frontend | Interfața web, Wireframes, Coordonare proiect |
 | **Melniciuc Damaris Daiana** | Backend Developer | Logica serverului, API, Scenarii utilizare (Use-cases) |
 | **Birdeanu Aaron** | Database & Backend | Modelul de date, Gestiune inventar, Cerințe tehnice |
