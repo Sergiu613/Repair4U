@@ -24,7 +24,6 @@ flowchart LR
     B -.->|optional| MAIL[Serviciu e-mail]
 ```
 
-Linia punctată indică o componentă opțională (notificările prin e-mail).
 
 ## 2. Componentele sistemului
 
