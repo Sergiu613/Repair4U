@@ -45,7 +45,6 @@ flowchart LR
 - Bază de date relațională, stocată într-un singur fișier, ușor de configurat.
 - Tabele principale: `Users`, `Orders`, `Inventory`.
 - Parolele se stochează criptat (hash), nu în clar.
-- Detaliile despre tabele și relații se găsesc în [Modelul de date](datamodel.md).
 
 ### 2.4 Serviciu de e-mail (opțional)
 - Trimite un e-mail clientului când se schimbă statusul reparației.
